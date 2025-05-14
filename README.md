@@ -3,6 +3,7 @@
 This project is an end-to-end AI/ML pipeline for predicting Formula 1 race outcomes (e.g., driver finishing positions) using historical data from the OpenF1 API. Built with Python, it includes data fetching, preprocessing, feature engineering, model training with XGBoost, and deployment via FastAPI. The modular structure supports iterative improvements for adding advanced features like telemetry or weather data.
 
 ## Project Structure
+```markdown
 f1_race_predictor/
 ├── data/                   # Raw and processed data
 ├── notebooks/              # Jupyter notebooks for EDA
@@ -17,6 +18,7 @@ f1_race_predictor/
 ├── .gitignore              # Git ignore file
 ├── setup.py                # Package setup
 └── run.py                  # Pipeline entry point
+```
 
 ## Setup
 
