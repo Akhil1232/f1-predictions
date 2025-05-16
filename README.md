@@ -76,18 +76,18 @@ OpenF1 API: Provides historical F1 data (races, results, drivers, laps). No API 
 
 ### Future Enhancements
 
-Integrate telemetry data from OpenF1’s /car_data endpoint.
-Add weather data via external APIs or scraping.
-Implement advanced models (e.g., LSTM, ensemble methods).
-Add CI/CD with GitHub Actions.
+- Integrate telemetry data from OpenF1’s /car_data endpoint.
+- Add weather data via external APIs or scraping.
+- Implement advanced models (e.g., LSTM, ensemble methods).
+- Add CI/CD with GitHub Actions.
 
 ### Contributing
 
-Fork the repository.
-Create a feature branch (git checkout -b feature/new-feature).
-Commit changes (git commit -m "Add new feature").
-Push to the branch (git push origin feature/new-feature).
-Open a pull request.
+- Fork the repository.
+- Create a feature branch (git checkout -b feature/new-feature).
+- Commit changes (git commit -m "Add new feature").
+- Push to the branch (git push origin feature/new-feature).
+- Open a pull request.
 
 License
 MIT License (see LICENSE file).
