@@ -24,8 +24,8 @@ f1_race_predictor/
 
 ### Clone the Repository:
 ```python
-git clone <repository-url>
-cd f1_race_predictor
+git clone https://github.com/Akhil1232/f1-predictions.git
+cd f1-predictions
 ```
 
 
