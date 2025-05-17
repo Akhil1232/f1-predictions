@@ -5,7 +5,7 @@ from sklearn.metrics import mean_squared_error
 import joblib
 import os
 from pathlib import Path
-from src.data.fetch_data import load_config
+from src.utils import load_config
 
 def train_model():
     config = load_config()
