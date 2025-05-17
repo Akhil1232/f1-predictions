@@ -1,5 +1,5 @@
 import pandas as pd
-from src.data.fetch_data import load_config
+from src.utils import load_config
 import os
 
 def build_features(df):
@@ -25,4 +25,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
