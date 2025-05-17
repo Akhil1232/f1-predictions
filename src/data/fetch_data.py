@@ -3,12 +3,9 @@ import pandas as pd
 import yaml
 import os
 from pathlib import Path
+from src.utils import load_config
 
 BASE_URL="https://api.openf1.org/v1"
-
-def load_config(config_path="configs/config.yaml"):
-    with open(config_path, 'r') as file:
-        return yaml.safe_load(file)
 
 def fetch_openf1_data(endpoint, params=None):
     base_url = BASE_URL

@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 from pathlib import Path
-from fetch_data import load_config
+from src.utils import load_config
 
 # Load Raw Data and Convert into Data frames using Pandas
 
