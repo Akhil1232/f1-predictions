@@ -2,3 +2,9 @@ venv/
 data/
 !src/data/
 models/trained_models/
+pycache/ 
+*.pyc 
+*.pyo 
+*.pyd 
+.Python 
+*.ipynb_checkpoints/
